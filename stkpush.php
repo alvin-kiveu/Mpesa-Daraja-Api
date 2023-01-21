@@ -43,4 +43,9 @@ curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
 $curl_response = curl_exec($curl);
 //ECHO  RESPONSE
-echo $curl_response;
+$data = json_decode($curl_response);
+$CheckoutRequestID = $data->CheckoutRequestID;
+$ResponseCode = $data->ResponseCode;
+if ($ResponseCode == "0") {
+  echo "The CheckoutRequestID for this transaction is : " . $CheckoutRequestID;
+}
