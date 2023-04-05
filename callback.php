@@ -18,4 +18,5 @@ $UserPhoneNumber = $data->Body->stkCallback->CallbackMetadata->Item[4]->Value;
 //CHECK IF THE TRASACTION WAS SUCCESSFUL 
 if ($ResultCode == 0) {
   //STORE THE TRANSACTION DETAILS IN THE DATABASE
+  
 }
