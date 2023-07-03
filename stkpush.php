@@ -9,7 +9,7 @@ $BusinessShortCode = '174379';
 $Timestamp = date('YmdHis');
 // ENCRIPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
-$phone = '254768168060';
+$phone = '';//phone number to receive the stk push
 $money = '1';
 $PartyA = $phone;
 $PartyB = '254708374149';
@@ -47,5 +47,5 @@ $data = json_decode($curl_response);
 $CheckoutRequestID = $data->CheckoutRequestID;
 $ResponseCode = $data->ResponseCode;
 if ($ResponseCode == "0") {
- // echo "The CheckoutRequestID for this transaction is : " . $CheckoutRequestID;
+  echo "The CheckoutRequestID for this transaction is : " . $CheckoutRequestID;
 }
