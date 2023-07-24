@@ -2,11 +2,11 @@
 include 'accessToken.php';
 include 'securitycridential.php';
 $b2c_url = 'https://sandbox.safaricom.co.ke/mpesa/b2c/v1/paymentrequest';
-$InitiatorName = 'testapi';
-$pass = "Safaricom999!*!";
+$InitiatorName = '';
+$pass = "";
 $BusinessShortCode = "600983";
-$phone = "254708374149";
-$amountsend = '1';
+$phone = "";
+$amountsend = '';
 //$SecurityCredential ='iOZoPBIc9xvaZviQ6TpN64Jh800cv7My9azP6CH98Jzo6od8uPN/7JP/3XjREd8QjZG9a7DgAdubNbonsc3IMI3xckZ/b+ARt75VSWY//t2xxyWgLa9KW4OUIC7Ge7so8H3GvhnfGP5nhPcxwSJzXhyX72ayqxHba4Ay0m7DFrbLguDqyIqCyG2rrmP1B9cQbMFMIWed3XTny/4RCnKVMtecieZ6IGXuLLxMSKzDWZ3D3K3rMjlR0kR16LbNjjqs32YUN9G1g75hz1h37apUY0kP4Maicvd0K2qNWDoqKo/YQwLrhGsmVh/gybQeaQuPs9ssZUQ6wNDVD4Eg+a8qAA==';
 $CommandID = 'SalaryPayment'; // SalaryPayment, BusinessPayment, PromotionPayment
 $Amount = $amountsend;

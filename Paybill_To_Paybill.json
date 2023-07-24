@@ -1,0 +1,21 @@
+{
+  "Result": {
+    "ResultType": 0,
+    "ResultCode": 2001,
+    "ResultDesc": "The initiator information is invalid.",
+    "OriginatorConversationID": "8348-53827989-1",
+    "ConversationID": "AG_20230724_20107c2530480bba9b7f",
+    "TransactionID": "RGO0000000",
+    "ReferenceData": {
+      "ReferenceItem": [
+        {
+          "Key": "QueueTimeoutURL",
+          "Value": "https:\/\/internalsandbox.safaricom.co.ke\/mpesa\/b2bresults\/v1\/submit"
+        },
+        {
+          "Key": "Occassion"
+        }
+      ]
+    }
+  }
+}
