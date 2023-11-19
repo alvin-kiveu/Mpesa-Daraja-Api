@@ -1,16 +1,1 @@
-{
-  "Result": {
-    "ResultType": 0,
-    "ResultCode": 2001,
-    "ResultDesc": "The initiator information is invalid.",
-    "OriginatorConversationID": "83282-65926078-1",
-    "ConversationID": "AG_20230719_20107677b5151adf7e2c",
-    "TransactionID": "RGJ0000000",
-    "ReferenceData": {
-      "ReferenceItem": {
-        "Key": "Occasion",
-        "Value": "OK"
-      }
-    }
-  }
-}
+{"Result":{"ResultType":0,"ResultCode":0,"ResultDesc":"The service request is processed successfully.","OriginatorConversationID":"7625-64263484-1","ConversationID":"AG_20230728_201036ccad58bf0aeef6","TransactionID":"RGS3OJ8P0H","ResultParameters":{"ResultParameter":[{"Key":"DebitAccountBalance","Value":"Utility Account|KES|863.00|863.00|0.00|0.00"},{"Key":"Amount","Value":10.00},{"Key":"TransCompletedTime","Value":20230728233348},{"Key":"OriginalTransactionID","Value":"RGS7LNKUWB"},{"Key":"Charge","Value":0.00},{"Key":"CreditPartyPublicName","Value":"0768168060 - Alvin Odari kiveu"},{"Key":"DebitPartyPublicName","Value":"8044747 - UMESKIA SOFTWARE 2"}]},"ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"https:\/\/internalapi.safaricom.co.ke\/mpesa\/reversalresults\/v1\/submit"}}}}{"Result":{"ResultType":0,"ResultCode":"R000002","ResultDesc":"The OriginalTransactionID is invalid.","OriginatorConversationID":"55939-61738587-1","ConversationID":"AG_20230728_20602de8a42ec9c3deb8","TransactionID":"RGS0000000","ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"https:\/\/internalapi.safaricom.co.ke\/mpesa\/reversalresults\/v1\/submit"}}}}{"Result":{"ResultType":0,"ResultCode":0,"ResultDesc":"The service request is processed successfully.","OriginatorConversationID":"23310-279541560-1","ConversationID":"AG_20230729_202041bac3977c3de364","TransactionID":"RGT1PTA6B5","ResultParameters":{"ResultParameter":[{"Key":"DebitAccountBalance","Value":"Utility Account|KES|1559.00|1559.00|0.00|0.00"},{"Key":"Amount","Value":36.00},{"Key":"TransCompletedTime","Value":20230729142932},{"Key":"OriginalTransactionID","Value":"RGT4PR3YXC"},{"Key":"Charge","Value":0.00},{"Key":"CreditPartyPublicName","Value":"0795564638 - lawrence orenge otiso"},{"Key":"DebitPartyPublicName","Value":"8044747 - UMESKIA SOFTWARE 2"}]},"ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"https:\/\/internalapi.safaricom.co.ke\/mpesa\/reversalresults\/v1\/submit"}}}}{"Result":{"ResultType":0,"ResultCode":0,"ResultDesc":"The service request is processed successfully.","OriginatorConversationID":"23526-83455724-1","ConversationID":"AG_20230729_20603c36320e9fc20cab","TransactionID":"RGT9PTINIV","ResultParameters":{"ResultParameter":[{"Key":"DebitAccountBalance","Value":"Utility Account|KES|1559.00|1559.00|0.00|0.00"},{"Key":"Amount","Value":10.00},{"Key":"TransCompletedTime","Value":20230729143148},{"Key":"OriginalTransactionID","Value":"RGT0PTE80E"},{"Key":"Charge","Value":0.00},{"Key":"CreditPartyPublicName","Value":"0740511003 - AUSTINE OCHIENG ONGALA"},{"Key":"DebitPartyPublicName","Value":"8044747 - UMESKIA SOFTWARE 2"}]},"ReferenceData":{"ReferenceItem":{"Key":"QueueTimeoutURL","Value":"https:\/\/internalapi.safaricom.co.ke\/mpesa\/reversalresults\/v1\/submit"}}}}

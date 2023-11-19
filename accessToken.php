@@ -1,7 +1,7 @@
 <?php
 //YOU MPESA API KEYS
-$consumerKey = ""; //Fill with your app Consumer Key
-$consumerSecret = ""; //Fill with your app Consumer Secret
+$consumerKey = "a896AGN5szlaHPmavXz5j943ppflNsTt"; //Fill with your app Consumer Key
+$consumerSecret = "GROMbRHf0oBK5fVi"; //Fill with your app Consumer Secret
 //ACCESS TOKEN URL
 $access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
 $headers = ['Content-Type:application/json; charset=utf8'];
@@ -13,7 +13,7 @@ curl_setopt($curl, CURLOPT_USERPWD, $consumerKey . ':' . $consumerSecret);
 $result = curl_exec($curl);
 $status = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 $result = json_decode($result);
- $access_token = $result->access_token;
- curl_close($curl);
+$access_token = $result->access_token;
+curl_close($curl);
 
 
